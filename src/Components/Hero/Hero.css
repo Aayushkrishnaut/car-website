@@ -1,0 +1,85 @@
+.hero {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    padding: 5vh 5vw;
+    box-sizing: border-box;
+  }
+  
+  .hero-text {
+    color: #fff;
+    font-size: clamp(3rem, 8vw, 7rem);
+    font-weight: 500;
+    line-height: 1.2;
+    margin-bottom: 2vh;
+  }
+  
+  .hero-explore {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    width: fit-content;
+    padding: 10px 20px;
+    border-radius: 60px;
+    background-color: white;
+    cursor: pointer;
+    margin-bottom: 4vh;
+  }
+  
+  .hero-explore p {
+    color: #292929;
+    font-size: clamp(1rem, 2vw, 1.25rem);
+    font-weight: 400;
+  }
+  
+  .hero-dot-play {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+  }
+  
+  .hero-dots {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    list-style: none;
+    padding: 0;
+  }
+  
+  .hero-dot {
+    height: 12px;
+    width: 12px;
+    background: #fff;
+    border-radius: 50%;
+    cursor: pointer;
+  }
+  
+  .hero-dot-orange {
+    background: orange;
+  }
+  
+  .hero-play {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+  }
+  
+  .hero-play p {
+    color: #fff;
+    font-size: clamp(0.9rem, 1.5vw, 1.2rem);
+  }
+  
+  @media (max-height: 600px) {
+    .hero {
+      padding: 2vh 5vw;
+    }
+    
+    .hero-text {
+      margin-bottom: 1vh;
+    }
+    
+    .hero-explore {
+      margin-bottom: 2vh;
+    }
+  }

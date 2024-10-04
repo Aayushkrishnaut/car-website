@@ -1,0 +1,45 @@
+.nav {
+    display: flex;
+    justify-content: space-between; /* Aligns logo to the left and menu to the right */
+    align-items: center;
+    margin: 40px 120px;
+    color: white;
+  }
+  
+  .nav-logo {
+    font-family: Outfit, sans-serif;
+    font-size: 42px;
+    font-weight: 500;
+  }
+  
+  .nav-menu {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    font-size: 18px;
+    gap: 90px;
+  }
+  
+  .nav-menu li {
+    cursor: pointer;
+  }
+  
+  .nav-menu li:hover {
+    color: #f1f1f1;
+  }
+  
+  .nav-contact {
+    border-radius: 50px;
+    padding: 10px 38px;
+    background: #fff;
+    color: #080202;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+  
+  .nav-contact:hover {
+    background: black;
+    color: white;
+    
+  }
+  
